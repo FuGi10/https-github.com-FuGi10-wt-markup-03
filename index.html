@@ -1,88 +1,107 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevStudio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DevStudio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container header-container">
-            <div class="logo">DevStudio</div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#">Про нас</a></li>
-                    <li><a href="#">Портфоліо</a></li>
-                    <li><a href="#">Контакти</a></li>
-                </ul>
-            </nav>
-            <div class="contact-info">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a href="tel:+380680001116">+38 068 000 11 16</a>
-            </div>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="#" class="logo">DevStudio</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Портфоліо</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+380800001100">+38 000 001 11 00</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="container">
+        <h1>Ми створюємо легкі рішення складних завдань для вашого бізнеса</h1>
+        <button type="button">Замовити послугу</button>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features">
+      <div class="container">
+        <div class="feature">
+          <h2>Увага до деталей</h2>
+          <p>Легкий для нас доступний для користувача</p>
         </div>
-    </header>
-
-    <main>
-        <section class="hero section">
-            <div class="container">
-                <h1>Ми створюємо легкі рішення складних завдань для вашого бізнесу</h1>
-                <button class="btn">Замовити послуги</button>
-            </div>
-        </section>
-
-        <section class="advantages section">
-            <div class="container">
-                <ul class="advantages-list">
-                    <li> <h3>Увага до деталей</h3> <p>Lorem ipsum dolor sit amet.</p></li>
-                    <li> <h3>Пунктуальність</h3> <p>Lorem ipsum dolor sit amet.</p></li>
-                    <li> <h3>Планування</h3> <p>Lorem ipsum dolor sit amet.</p></li>
-                    <li> <h3>Сучасні технології</h3> <p>Lorem ipsum dolor sit amet.</p></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="specialization section">
-            <div class="container">
-                <h2>Роботи, на яких спеціалізуємось</h2>
-                <div class="specialization-grid">
-                    <img src="images/code.jpg" alt="Coding">
-                    <img src="images/team.jpg" alt="Team Work">
-                    <img src="images/design.jpg" alt="Design">
-                </div>
-            </div>
-        </section>
-
-        <section class="team section">
-            <div class="container">
-                <h2>Наша команда</h2>
-                <div class="team-grid">
-                    <div class="team-member">
-                        <img src="images/member1.jpg" alt="Team Member">
-                        <h3>Mary Peltz</h3>
-                        <p>Product Designer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="images/member2.jpg" alt="Team Member">
-                        <h3>John Doe</h3>
-                        <p>Frontend Developer</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="images/member3.jpg" alt="Team Member">
-                        <h3>Jane Smith</h3>
-                        <p>Marketing</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-container">
-            <p>DevStudio © 2024</p>
+        <div class="feature">
+          <h2>Пунктуальність</h2>
+          <p>Доставляємо проекти вчасно і з високою якістю</p>
         </div>
-    </footer>
+        <div class="feature">
+          <h2>Сучасні технології</h2>
+          <p>Використовуємо новітні технології для досягнення кращих результатів</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects">
+      <div class="container">
+        <h2>Роботи на яких спеціалізуємось</h2>
+        <ul class="project-list">
+          <li><img src="images/project1.jpg" alt="Код на екрані" width="300"></li>
+          <li><img src="images/project2.jpg" alt="Команда розробників" width="300"></li>
+          <li><img src="images/project3.jpg" alt="Планування проекту" width="300"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Team section -->
+    <section class="team">
+      <div class="container">
+        <h2>Наша команда</h2>
+        <ul class="team-list">
+          <li>
+            <img src="images/team1.jpg" alt="Betty Fexiz" width="150">
+            <p>Betty Fexiz<br>Product Designer</p>
+          </li>
+          <li>
+            <img src="images/team2.jpg" alt="Foke Booke" width="150">
+            <p>Foke Booke<br>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="images/team3.jpg" alt="Mito Dio" width="150">
+            <p>Mito Dio<br>Marketing</p>
+          </li>
+          <li>
+            <img src="images/team4.jpg" alt="Lila Spentaz" width="150">
+            <p>Lila Spentaz<br>UI Designer</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <a href="#" class="logo">DevStudio</a>
+      <address>
+        м. Харків, вул. Зоряна Меркурія, 1Б<br>
+        info@devstudio.com<br>
+        +38 000 001 11 00
+      </address>
+    </div>
+  </footer>
 </body>
 </html>
